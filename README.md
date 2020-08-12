@@ -38,7 +38,7 @@
 
 启动：`sails lift`，生产环境加上 `--prod` 参数。
 
-为了保证项目能正常运行，参考package.json的sails版本，推荐安装0.12.X的版本，保证项目正常运行。
+> 为了保证项目能正常运行，参考package.json的sails版本，推荐安装0.12.X的版本，保证项目正常运行。
 
 
 ## 配置
@@ -85,7 +85,7 @@ sequelizeServer: {
   }
 }
 ```
->  提示：现在MySQL的主流版本已经是8.X，若是第一次安装MySQL，运行可能报错 `MYSQL：ER_NOT_SUPPORTED_AUTH_MODE:Client does not support authentication protocol` ，只需进入MySQL后设置密码，重新连接成功后即可。
+>  提示：现在MySQL的主流版本已经是8.X，若是第一次安装MySQL，运行可能报错 `MYSQL：ER_NOT_SUPPORTED_AUTH_MODE:Client does not support authentication protocol` ，进入MySQL后设置密码，重新连接成功后即可。
 
 **修改图片素材**
 
